@@ -80,5 +80,37 @@ h1 {
 .resume-text-align {
     text-align: left;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-box {
+    box-sizing: border-box;
+    width: 45%;
+    padding: 20px;
+    font-size: 1.5em;
+    border: whitesmoke 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.p-project-box {
+    font-size: 0.6em;
+    
+}
   
+.div-alternative-color-form {
+    background-color: #397737;
+    height: 700px;
+}
+
+.form-label {
+    color: white;
+    text-align: center;   
+}
+
+
   
