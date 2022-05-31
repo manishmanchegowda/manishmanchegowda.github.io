@@ -112,5 +112,67 @@ h1 {
     text-align: center;   
 }
 
+/*  Media Queries  - Responsive Design */
+@media (max-width: 414px) {
+    nav ul li {
+      /* display: inline-block; */
+      padding: 1em 0.3em;
+      margin-right: 0.1em;
+      list-style-type: none;
+    }
+  
+    .section-home {
+      margin-top: 75px;
+    }
+  
+    .resume-text-align {
+      text-align: center;
+    }
+  
+    .project-box {
+      font-size: 1em;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 780px) {
+  nav ul li {
+    padding: 1em 0.5em;
+    margin-right: 0.3em;
+  }
+
+  .section-home {
+    margin-top: 100px;
+  }
+
+  .div-alternative-color-aboutme {
+    background-color: rgb(258, 246, 246);
+    height: 460px;
+  }
+
+  .div-alternative-color-resume {
+    background-color: #eee6ff;
+    height: 560px;
+  }
+
+  .div-alternative-color-projects {
+    background-color: rgb(258, 246, 246);
+    height: 560px;
+  }
+
+  .resume-text-align {
+    text-align: center;
+  }
+
+  .main-container {
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 781px) {
+  .main-container {
+    margin-top: -15px;
+  }
+}
+
 
   
